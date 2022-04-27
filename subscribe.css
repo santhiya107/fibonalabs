@@ -1,0 +1,321 @@
+#subscribe-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 68.2px;
+    color: #232d62;
+    line-height:normal;
+    letter-spacing: normal;
+    text-align: center;
+    padding-top: 40%;  
+    margin-bottom:7px ;
+}
+#stay-text{    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #a8a9b0;
+    padding:0px 250px 50px;
+}
+.forms{
+    margin-left: 10%;  
+}
+.form-input{
+    float: left;
+    padding-right:2%;   
+}
+.required:after {
+    content:" *";
+    color: red;
+  }
+input[type=text] {
+    height:60px;
+    width:349px;
+    border-radius: 6px;  
+    font-family: 'Poppins', sans-serif;   
+    background-color: transparent;    
+    border: 1px solid rgba(128, 128, 128, 0.623); 
+    padding-left: 3%;   
+    font-size: 13.33px;
+  }
+input[type=email] {
+    height:60px;
+    width:544px;
+    border-radius: 6px; 
+    font-family: 'Poppins', sans-serif;   
+    background-color: transparent;    
+    border: 1px solid rgba(128, 128, 128, 0.623); 
+    padding-left: 3%; 
+    font-size: 13.33px;
+  }
+#label-name{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+}
+#label-city{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+}
+#label-email{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+}
+#submit{
+    font-size: 13.33px; 
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+    background-color: #4d66f0;
+    color: white;
+    font-weight:650;
+    border: medium none;
+    width:110px;
+    height:60px;
+    position:relative;
+    top: 30px;
+}
+@media screen and (max-width:414px) {
+        #subscribe-text{
+            font-family: 'Poppins', sans-serif;
+            font-size:28.62px;
+            color: #232d62;
+            line-height:normal;
+            letter-spacing: normal;
+            text-align: center;
+            padding-top:220px;  
+            margin-bottom:7px ;
+        }
+        #stay-text{    
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            line-height: normal;
+            text-align: center;
+            letter-spacing: 1px;
+            color: #a8a9b0;
+            padding:5px 70px 50px;
+        }        
+        .forms{
+            margin-left:33px;  
+        }
+        .form-input{
+            float:none;    
+        }
+        .required:after {
+            content:" *";
+            color: red;
+          }
+        input[type=text] {
+            height:40px;
+            width:320px;
+            border-radius: 6px;  
+            font-family: 'Poppins', sans-serif;   
+            background-color: transparent;    
+            border: 1px solid grey;
+            padding-left: 3%;  
+            font-size: 13.33px; 
+            margin-top: 8px;
+            margin-bottom: 39px;
+          }
+        input[type=email] {
+            height:40px;
+            width:320px;
+            border-radius: 6px; 
+            font-family: 'Poppins', sans-serif;   
+            background-color: transparent;    
+            border: 1px solid grey; 
+            padding-left: 3%; 
+            font-size: 13.33px;
+            margin-top: 8px;
+            margin-bottom: 37px;
+          }
+        #label-name{
+            font-family: 'Poppins', sans-serif; 
+            font-size: 12px;          
+        }
+        #label-city{
+            font-family: 'Poppins', sans-serif; 
+            font-size: 12px;
+        }
+        #label-email{
+            font-family: 'Poppins', sans-serif; 
+            font-size: 12px;
+        }
+        #submit{
+            font-size: 13.33px; 
+            font-family: 'Poppins', sans-serif;
+            border-radius: 6px;
+            background-color: #4d66f0;
+            color: white;
+            border: medium none;
+            width:110px;
+            height:45px;
+            position:relative;
+            top: 30pX;
+            margin-left:30%;
+        }       
+    }
+    @media  screen and (min-width:415px) and (max-width:768px) {
+        #subscribe-text{    
+            font-family: 'Poppins', sans-serif;
+            font-size:34.28px;
+            color: #232d62;
+            line-height:normal;
+            letter-spacing: normal;
+            text-align: center;
+            padding-top: 20%;  
+            margin-bottom:7px ;
+        }
+        #stay-text{    
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            line-height: normal;
+            text-align: center;
+            letter-spacing: 1px;
+            color: #a8a9b0;
+            padding:5px 120px 70px;
+        }
+        .forms{
+            margin-left: 16%;  
+        }
+        .form-input{
+            float:none;    
+        }
+        .required:after {
+            content:" *";
+            color: red;
+          }
+        input[type=text] {
+            height:40px;
+            width:456px;
+            border-radius: 6px;  
+            font-family: 'Poppins', sans-serif;   
+            background-color: transparent;    
+            border: 1px solid grey;
+            padding-left: 3%;  
+            font-size: 13.33px; 
+            margin-top: 8px;
+            margin-bottom: 39px;
+          }
+        input[type=email] {
+            height:40px;
+            width:456px;
+            border-radius: 6px; 
+            font-family: 'Poppins', sans-serif;   
+            background-color: transparent;    
+            border: 1px solid grey; 
+            padding-left: 3%; 
+            font-size: 13.33px;
+            margin-top: 8px;
+            margin-bottom: 37px;
+          }
+        #label-name{
+            font-family: 'Poppins', sans-serif; 
+            font-size: 12px;  
+        }
+        #label-city{
+            font-family: 'Poppins', sans-serif; 
+            font-size: 12px;
+        }
+        #label-email{
+            font-family: 'Poppins', sans-serif; 
+            font-size: 12px;
+        }
+        #submit{
+            font-size: 13.33px; 
+            font-family: 'Poppins', sans-serif;
+            border-radius: 6px;
+            background-color: #4d66f0;
+            color: white;
+            border: medium none;
+            width:110px;
+            height:45px;
+            position:relative;
+            top: 30pX;
+            margin-left:30%;
+        }        
+    }
+@media screen and (min-width:780px) and (max-width:1024px){
+    #subscribe-text{
+            font-family: 'Poppins', sans-serif;
+            font-size:38.384px;
+            color: #232d62;
+            line-height:normal;
+            letter-spacing: normal;
+            text-align: center;
+            padding-top: 57%;  
+            margin-bottom:7px ;
+        }
+        .bottom{
+            margin-top: 390px;
+        }
+        #stay-text{    
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            line-height: normal;
+            text-align: center;
+            letter-spacing: 1px;
+            width: 680px;
+            color: #a8a9b0;
+            padding:0px 0px 0px 170px;
+        }
+        .forms{
+            margin-left: 16%;  
+            height: 600px;
+        }
+        .form-input{
+            float:none;    
+        }
+        .required:after {
+            content:" *";
+            color: red;
+          }
+        input[type=text] {
+            height:45px;
+            width:650px;
+            border-radius: 6px;  
+            font-family: 'Poppins', sans-serif;   
+            background-color: transparent;    
+            border: 1px solid rgba(128, 128, 128, 0.452);
+            padding-left: 3%;  
+            font-size: 13.33px; 
+            margin-top: 8px;
+            margin-bottom: 39px;
+          }
+        input[type=email] {
+            height:45px;
+            width:650px;
+            border-radius: 6px; 
+            font-family: 'Poppins', sans-serif;   
+            background-color: transparent;    
+            border: 1px solid rgba(128, 128, 128, 0.452); 
+            padding-left: 3%; 
+            font-size: 13.33px;
+            margin-top: 8px;
+            margin-bottom: 37px;
+          }
+        #label-name{
+            font-family: 'Poppins', sans-serif; 
+            font-size: 12px;
+          
+        }
+        #label-city{
+            font-family: 'Poppins', sans-serif; 
+            font-size: 12px;
+        }
+        #label-email{
+            font-family: 'Poppins', sans-serif; 
+            font-size: 12px;
+        }
+        #submit{
+            font-size: 13.33px; 
+            font-family: 'Poppins', sans-serif;
+            border-radius: 6px;
+            background-color: #4d66f0;
+            color: white;
+            border: medium none;
+            width:110px;
+            height:45px;
+            position:relative;
+            top: 30pX;
+            margin-left: 280px;
+        }
+    }

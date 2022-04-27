@@ -1,0 +1,406 @@
+@font-face {
+    font-family: 'montesaratb';
+    src: url("font/MontserratBold.ttf");
+}
+@font-face {
+    font-family: 'montesaratm';
+    src: url("font/Montserrat\ SemiBold\ 600.ttf");
+}
+@font-face {
+    font-family: 'montesaratl';
+    src: url("font/Montserrat\ Light\ 300.ttf");
+}
+@font-face {
+    font-family: 'montesaratr';
+    src: url("font/Montserrat\ Regular\ 400.ttf");
+}
+.what-we-do{
+    height: 608px;    
+    margin-left:-10px;
+    background-color: #1e232d;
+    font-family:"Montserat",sans-serif;
+    padding-left: 660px;
+    padding-top: 212px;
+}
+.what-we-do p{
+    display: block;
+    font-family: 'montesaratr';
+    font-size: 29px;
+    font-weight: 900;
+    color:white;
+    line-height: 42px;
+    width: 587px;
+}
+.what-we-do h2{
+    text-decoration:  solid rgb(153, 221, 232);
+    font-family: 'montesaratl';
+    font-size: 22px;
+    display: block;
+    color: #99DDE8;
+    width: 146px;
+    height:15px;
+    font-weight:lighter;
+}
+.sculpture{
+    width: 320px;
+    height: 566px;
+    margin-top: -92px
+}
+.sculpture2{
+    display: none;
+}
+.author{
+    line-height: 3;
+    height: 200px;
+    color:#463500;  
+    display: flex;
+    margin-left:-10px;
+    background-image: linear-gradient(to top right,  #fcd32d 50%,#fcd948 50%);
+}
+.author #p{
+    display: block;
+    font-family:"montesaratl";
+    width: 447px;
+    height:50px;
+    font-size: 16px;
+    margin-top:39px;
+    padding-left: 293px;
+    font-weight: 800;   
+}
+.author h3{
+    display: block;
+    font-family:"montesaratm";
+    font-weight: 200;
+    width: 246px;
+    height:20px;
+    font-size: 18px;
+    padding-top: 46px;
+    margin-left: -228px;
+}
+#ya{
+    display: block;
+    font-family:"montesaratb";
+    text-align: right;
+    width: 412px;
+    line-height: normal;
+    font-size:30px;
+    padding-left: 141px;
+    font-weight: bold;
+}
+#arrowtab{
+    display: block;
+    width: 19px;
+    padding-top: 141px;
+    margin-left: -20px;
+    height: 19px
+}
+.author #about{
+    padding-top: 83px;
+    font-family:"montesaratl";
+     margin-left: -106px;
+    display:block;
+    font-size: 15px;
+    margin-left: -158px;
+}
+@media screen and (max-width:414px) 
+{
+    .what-we-do{
+        height: 608px;
+        width: 315px;
+        background-color: #1e232d;
+        font-family:"Montserat",sans-serif;
+        padding-left: 93px;
+        padding-top: 212px;
+       
+    }
+    .what-we-do p{
+        display: block;
+        font-size: 22px;
+        font-family: 'montesaratl';
+        line-height: 34px;
+        width: 279px;
+        margin-left: -16px;
+      }
+      .what-we-do h2{
+        text-decoration:  solid rgb(153, 221, 232);
+        font-family: 'montesaratl';
+        font-size: 22px;
+        display: block;
+        color: #99DDE8;
+        width: 146px;
+        height:15px;
+        margin-top: 2px;
+        margin-left: -18px;
+        font-weight:lighter;
+    }
+    .sculpture{
+     display: none;        
+    }
+    .sculpture2{
+        display: block;
+        width: 320px;
+        height: 372px;
+        margin-top: -66px;
+        margin-left: -132px;
+    }
+    .author{
+        line-height: 1;
+        margin-left: -10px;
+        height: 184px;
+        color:#463500;   
+        height: 167px;
+        background-image: linear-gradient(to top left,  #fcd32d 50%,#fcd948 50%);
+    }
+    .author{
+        line-height: 1;
+        margin-left: -10px;
+        height: 184px;
+        color:#463500;
+        width: 408px;
+        display: flex;
+        flex-flow:nowrap;
+        background-image: linear-gradient(to top left,  #fcd32d 50%,#fcd948 50%);
+    }
+    .author #p{
+        display: block;
+        font-family: 'montasaratt';
+        width: 710px;
+        height: 0;
+        padding-left: 0;
+        margin-left: -7px;
+        text-align: right;
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 21px;
+        margin-right: -585px;
+        line-height: 1.2;
+        letter-spacing: 0.6px;
+    }        
+       #arrowtab{
+        display: block;
+        height: 18px;
+        width: 50px;
+        position: absolute;
+        left: 666px;
+        padding-top: 111px;
+       }
+       .author h3{
+        font-family: 'montasaratt';
+         font-weight:bolder;
+        font-size: 10px;
+        margin-left: 440px;
+        margin-right: -221px;
+        padding: 0;
+        letter-spacing: 1px;
+        padding-top: 54px;
+        width: 476px;
+       }
+    #ya{
+        font-family: "poppins";
+        text-align: right;
+        margin-left: -97px;
+        margin-right: 47px;
+        width: 418px;
+        padding-top: 87px;
+        line-height: normal;
+        font-size: 17px;
+        font-weight: 500; 
+    }
+    .author #about{
+        display: none;
+    } 
+    #arrowtab{
+        display: block;
+        height: 18px;
+        width: 50px;
+        position: absolute;
+        left: 323px;
+        padding-top: 155px;
+       }
+}
+@media  screen and (min-width:415px) and (max-width:768px) {
+    .what-we-do{
+        height: 608px;
+        width: 768px;
+        background-color: #1e232d;
+        font-family:"Montserat",sans-serif;
+        padding-left: 93px;
+        padding-top: 212px;
+        margin-left: -10px;
+    }
+    .what-we-do p{
+        display: block;
+        font-size: 22px;
+        font-family: 'montesaratl';
+        line-height: 34px;
+        width: 521px;
+      }
+      .what-we-do h2{
+        text-decoration:  solid rgb(153, 221, 232);
+        font-family: 'montesaratl';
+        font-size: 22px;
+        display: block;
+        color: #99DDE8;
+        width: 146px;
+        height:15px;
+        margin-top: 2px;
+        font-weight:lighter;
+    }
+    .sculpture{
+        display: none;
+    }
+    .sculpture2{
+        display: block;
+        width: 243px;
+        height: 368px;
+        margin-left: -122px;
+        margin-top: -64px;
+    }
+    .author{
+        line-height: 1;
+        margin-left: -10px;
+        height: 184px;
+        color:#463500;
+        width: 860px;
+        background-image: linear-gradient(to top left,  #fcd32d 50%,#fcd948 50%);
+    }
+    .author #p{
+        display: block;
+        font-family:'montasaratt';
+        width: 498px;
+        height:50px;
+        text-align: right;
+        font-size: 16px;
+        font-weight: 800;
+        margin-top:39px;
+        margin-right: -273px;
+        margin-left: -34px;
+        padding-left: 37px;
+        line-height: 1.2;
+        }
+       #arrowtab{
+        display: block;
+        height: 18px;
+        width: 50px;
+        position: absolute;
+        left: 666px;
+        padding-top: 111px;
+       }
+    .author h3{
+        font-weight: 500;
+        font-size:14px;
+        margin-left: 97px;
+        margin-right: -73px;
+        padding:0;
+        padding-top: 72px;
+        width: 470px;
+    }
+    #ya{
+        font-family:"poppins";
+        text-align: right;
+        margin-left: -97px;
+        margin-right: 154px;
+        width: 412px;
+        padding-top: 12px;
+        line-height: normal;
+        font-size: 22px;       
+        font-weight: 500;
+    }
+    .author #about{
+        display: none;
+    }
+}
+@media screen and (min-width:780px) and (max-width:1024px){
+    .what-we-do{
+        height: 608px;       
+        margin-left:-10px;
+        background-color: #1e232d;
+        font-family:"Montserat",sans-serif;
+        padding-left: 220px;
+        padding-top: 212px;
+    }
+    .what-we-do p{
+        display: block;
+        font-family: 'montesaratr';
+        font-size: 29px;
+        font-weight: 900;
+        color:white;
+        line-height: 42px;
+        width: 587px;
+    }
+    .what-we-do h2{
+        text-decoration:  solid rgb(153, 221, 232);
+        font-family: 'montesaratl';
+        font-size: 22px;
+        display: block;
+        color: #99DDE8;
+        width: 146px;
+        height:15px;
+        font-weight:lighter;
+    }
+    .sculpture{
+        display: none;
+    }
+    .sculpture2{
+        display: block;
+        width: 235px;
+         height: 382px;
+        margin-top: -77px;
+        margin-left: -116px;        
+    }
+    .author{
+        line-height: 3;
+        height: 180px;
+        color:#463500;        
+        display: flex;
+        margin-left:-10px;
+        background-image: linear-gradient(to top right,  #fcd32d 50%,#fcd948 50%);
+    }
+    .author #p{
+        display: block;
+        line-height: normal;
+        font-family: "montesaratl";
+        width: 327px;
+        height: 50px;
+        text-align: right;
+        font-size: 16px;
+        margin-top: 52px;
+        padding-left: 109px;
+        font-weight: 500;
+        margin-left: 13px;
+        margin-right: 316px;
+    }
+    .author h3{
+        display: block;
+        font-family:"montesaratt";
+        font-weight: 200;
+        width: 246px;
+        height:20px;
+        font-weight: 100;
+        font-size: 15px;
+        padding-top: 65px;
+        margin-left: -505px;
+        margin-right: -187px;
+    }    
+    #ya{
+        display: block;
+        font-family:"Poppins";
+        text-align: right;
+        width: 297px;
+        line-height: normal;
+        padding-top: 21px;
+        font-size: 22px;
+        padding-left: 174px;
+        font-weight: 600;
+    }
+    #arrowtab {
+        display: block;
+        width: 19px;
+        padding-top: 111px;
+        margin-left: -27px;
+        height: 19px;
+    }
+    .author #about{
+        display: none;
+    }
+}

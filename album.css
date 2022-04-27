@@ -1,0 +1,402 @@
+html,body{
+    overflow-x: hidden;
+}
+#art{
+    color: #313543;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+    font-size: 22.48px;
+    line-height: normal;
+    letter-spacing: normal;  
+    margin-bottom: -10px; 
+    margin-top: -70px;
+}
+#black-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 68.2px;
+    color:black;
+    font-weight:700;
+    margin-left: 10%;
+    margin-top:10px;
+    line-height: normal;
+    letter-spacing: normal;      
+}
+#pink-text
+{
+    font-size:68.2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    color: #f37298;
+    margin-left: 10%;
+    line-height: normal;
+    letter-spacing: normal;   
+    margin-top: -40px;
+}
+.footer-slider{
+    display: none;
+}
+.album{
+    display: flex;
+    float: left;
+    margin-left: 10%;  
+}
+.album img{
+    padding-right: 15px;
+}
+#pic1,#pic2,#pic3{
+    border-radius: 10px;
+}
+.pic-text{
+    font-size: 18px;
+    color:white;
+    position: relative;
+    bottom: 120px;
+    left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;    
+}
+.left-arrow{
+    height: 35px;
+    width: 35px;
+    background-color:transparent;   
+    border: 2px solid #f4f4f4;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1600px;
+}
+.left-arrow img{
+    height:10px ;
+    width:10px ;
+    position: relative;
+}
+.right-arrow{
+    height: 35px;
+    width: 35px;
+    background-color:transparent;    
+    border: 2px solid #f4f4f4;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1660px;
+}
+.right-arrow img{
+    height:10px ;
+    width:10px ;
+    position: relative;
+}
+@media screen and (max-width:414px) {
+    body,html{
+        overflow-x: hidden;
+        background-color: white;
+        }
+    #art{
+        color: #313543;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 10%;
+        font-size: 11.14px;
+        line-height: normal;
+        letter-spacing: normal;  
+        margin-bottom: -10px; 
+        margin-top: -250px;
+    }
+    #black-text{
+        font-family: 'Poppins', sans-serif;
+        font-size: 32.35px;
+        color:black;
+        font-weight:700;
+        margin-left: 10%;
+        margin-top:15px;
+        line-height: normal;
+        letter-spacing: normal;      
+    }
+    #pink-text{
+        font-size:32.35px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:700;
+        color: #f37298;
+        margin-left: 10%;
+        line-height: normal;
+        letter-spacing: normal;   
+        margin-top: -25px;
+    }
+    .album{
+        display: none;
+    }   
+    .footer-slider{
+        display:inline-block;
+        overflow: hidden;
+        width:330px;
+        height: 312.97px;
+        margin-left: 40px;
+        border-radius: 6%;
+      }
+    .footer-slider div{
+       position:relative;
+       width: 450%;
+       margin: 0;
+       left: 0;
+      animation: 10s sliderw infinite;
+    }
+    .footer-slider div img{
+      float: left;
+    }
+    .pic1{
+    width: 384px;
+    height: 322.97px;
+    margin-left: 0px;
+    }
+    .pic2{
+    width: 430px;
+    height:322.97px;
+    margin-left:-23px;    
+    }
+    .pic3{
+    width: 490px;
+    height: 322.97px;
+    margin-left: -98px;    
+    }
+    @keyframes sliderw {
+        0%{left: 0;}
+        39.99%{left: 0;}
+        40%{left: -110%; }
+        79.99%{left: -110%;}
+        80%{left: -250%;}
+        99.99%{left: -250%;}
+        100%{left:-300%; }      
+    } 
+    .left-arrow{
+        height: 35px;
+        width: 35px;
+        background-color:transparent;   
+        border: 2px solid #f4f4f4;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 370px;
+        margin-left: 270px;
+    }
+    .left-arrow img{
+        height:10px ;
+        width:10px ;
+        position: relative;
+        top: 10px;
+        left: 13px;
+    }
+    .right-arrow{
+        height: 35px;
+        width: 35px;
+        background-color:transparent;    
+        border: 2px solid #f4f4f4;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 370px;
+        margin-left: 330px;
+    }
+    .right-arrow img{
+        height:10px ;
+        width:10px ;
+        position: relative;
+        top: 10px;
+        left: 13px;
+    }
+}
+@media  screen and (min-width:425px) and (max-width:768px) {
+    body,html{
+        overflow-x: hidden;
+        background-color: white;
+    }
+    .bottom{
+        
+        margin-top: 148px;
+        }
+#art{
+    color: #313543;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+    font-size: 14.68px;
+    line-height: normal;
+    letter-spacing: normal;  
+    margin-bottom: -10px;     
+}
+#black-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 41.2px;
+    color:black;
+    font-weight:700;
+    margin-left: 10%;
+    margin-top:15px;
+    line-height: normal;
+    letter-spacing: normal;      
+}
+#pink-text{
+    font-size:41.2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    color: #f37298;
+    margin-left: 10%;
+    line-height: normal;
+    letter-spacing: normal;   
+    margin-top: -25px;
+}
+.album{
+    display: none;
+}   
+.footer-slider{
+    display:inline-block;
+    overflow: hidden;
+    width: 530px;
+    height: 452.97px;
+    margin-left: 40px;
+    border-radius: 6%;
+  }
+.footer-slider div{
+   position:relative;
+   width: 1050%;
+   margin: 0;
+   left: 0;
+  animation: 15s sliderw infinite;
+}
+.footer-slider div img{
+  float: left;
+}
+.pic1{
+width: 600px;
+height: 452.97px;
+margin-left: 0px;
+}
+.pic2{
+width: 590px;
+height: 452.97px;
+margin-left: -20px;
+}
+.pic3{
+width: 594px;
+height: 452.97px;
+margin-left: 150px;
+}
+@keyframes sliderw {
+    0%{left: 0;}
+    39.99%{left: 0;}
+    40%{left: -110%;  }
+    79.99%{left: -110%;}
+    80%{left: -250%; }
+    99.99%{left: -250%; }
+    100%{left:-300%;} 
+}
+.left-arrow{
+    height: 35px;
+    width: 35px;
+    background-color:transparent;   
+    border: 2px solid #f4f4f4;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 480px;
+}
+.left-arrow img{
+    height:10px ;
+    width:10px ;
+    position: relative;
+    top: 10px;
+    left: 13px;
+}
+.right-arrow{
+    height: 35px;
+    width: 35px;
+    background-color:transparent;    
+    border: 2px solid #f4f4f4;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 540px;
+}
+.right-arrow img{
+    height:10px ;
+    width:10px ;
+    position: relative;
+    top: 10px;
+    left: 13px;
+}
+}
+@media screen and (min-width:780px) and (max-width:1024px){
+    body,html{
+        overflow-x: hidden;
+    }
+    .bottom{
+        background-color: white;
+    }
+#art{
+    color: #313543;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+    font-size: 17.24px;
+    line-height: normal;
+    letter-spacing: normal; 
+    margin-top: 270px; 
+    margin-bottom: -10px; 
+}
+#black-text{
+    font-family: 'Poppins', sans-serif;
+    font-size:47.6px;
+    color:black;
+    font-weight:700;
+    margin-left: 10%;
+    margin-top:10px;
+    line-height: normal;
+    letter-spacing: normal;      
+}
+#pink-text{
+    font-size:47.6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    color: #f37298;
+    margin-left: 10%;
+    line-height: normal;
+    letter-spacing: normal;   
+    margin-top: -40px;
+}
+.album{
+    margin-left: 10%;  
+}
+#pic1{
+    width: 535px;
+    height: 383px;
+}
+#pic2 #pic3{   
+    display: none;
+}
+.left-arrow{
+    height: 35px;
+    width: 35px;
+    background-color:transparent;   
+    border: 2px solid #f4f4f4;
+    border-radius: 50%;
+    position: absolute;
+    top:640px;
+    left: 507px;
+}
+.left-arrow img{
+    height:10px ;
+    width:10px ;
+    position: relative;
+    top:10px;
+    left:13px;
+}
+.right-arrow{
+    height: 35px;
+    width: 35px;
+    background-color:transparent;    
+    border: 2px solid #f4f4f4;
+    border-radius: 50%;
+    position: absolute;
+    top:640px;
+    left: 600px;
+}
+.right-arrow img{
+    height:10px ;
+    width:10px ;
+    position: relative;
+    top:10px;
+    left:13px;
+}
+}

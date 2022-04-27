@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'montesaratb';
+    src: url("font/MontserratBold.ttf");
+}
+@font-face {
+    font-family: 'montesaratm';
+    src: url("font/Montserrat\ SemiBold\ 600.ttf");
+}
+@font-face {
+    font-family: 'montesaratl';
+    src: url("font/Montserrat\ Light\ 300.ttf");
+}
+@font-face {
+    font-family: 'montesaratr';
+    src: url("font/Montserrat\ Regular\ 400.ttf");
+}
+html,body{
+    background-color:#FAF5F0;
+    overflow-x: hidden;
+}
+.menu{
+    display: none;
+}
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    height: 100px;
+    width:1836px;
+    position: fixed;
+    margin-top: -10px;
+    z-index: 4;
+    background-color:#FAF5F0;
+    margin-left: -8px;
+}
+.logo{
+    position: absolute;
+    margin-left:230px ;
+    width:200px;
+    height:63px;
+    top:40px;
+}
+.links{
+    display: flex;
+    margin-left: 800px;
+    margin-top: 40px;
+}
+.links a{
+    font-size: 15px; 
+    padding-left: 60px;
+    color:black;
+}
+.contact{
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -15px;
+    border-radius: 30px;
+    padding:14px 30px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:414px){
+    body,html{
+        overflow-x: hidden;
+    }
+    .menu{
+        display: flex;
+        margin-left: 338px;
+        margin-top: 20px;
+    }
+        .navbar{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            height: 100px;
+            width:768px;
+            position: fixed;
+            margin-top: -10px;
+            z-index: 4;
+            background-color:#FAF5F0;
+            margin-left: -8px;
+        }
+        .logo{
+            position: absolute;
+            margin-left: 14px;
+            width: 157px;
+            height: 45px;
+            top: 37px;
+        }
+        .links{
+            display:none;
+        }
+    }
+    @media screen and (min-width:415px) and (max-width:768px)
+    {
+        body,html{
+            overflow-x: hidden;
+        }
+        .menu{
+            display: flex;
+            margin-left: 678px;
+            margin-top: 20px;
+        }
+        .navbar{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            height: 100px;
+            width:768px;
+            position: fixed;
+            margin-top: -10px;
+            z-index: 4;
+            background-color:#FAF5F0;
+            margin-left: -8px;
+        }
+        .logo{
+            position: absolute;
+            margin-left: 54px;
+            width: 157px;
+            height: 45px;
+            top: 37px;
+        }
+        .links{
+            display:none;
+        }   
+     }      
+    @media screen and (min-width:780px) and (max-width:1024px){
+
+        body,html{
+            overflow-x: hidden;
+        }
+        .menu{
+            display: flex;
+            margin-left: 940px;
+            margin-top: 20px;
+        }
+        .navbar{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            height: 100px;
+            width:1024px;
+            position: fixed;
+            margin-top: -10px;
+            z-index: 4;
+            background-color:#Ffffff;
+            margin-left: -8px;
+        }
+        .logo{
+            position: absolute;
+            margin-left: 54px;
+            width: 157px;
+            height: 45px;
+            top: 37px;
+        }
+        .links{
+            display:none;
+        }
+    }

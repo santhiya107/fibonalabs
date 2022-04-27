@@ -1,0 +1,286 @@
+.paper{
+    margin-left:115px;
+    display: flex;
+    margin-top: -12px;
+  }
+  .paper-img{
+    width: 720px;
+    height: 600px;
+  }
+  
+  .paper-aside{
+    width: 880px;
+    background-color: #ffd948;
+  
+  }
+  .paper-title{
+    padding-top: 140px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #1e232d;
+    font-family: "poppins";
+  }
+  .paper-heading{
+    font-size: 30px;
+    font-family: "poppins";
+    font-weight: 700;
+    text-align: center;
+    color: #1e232d;
+    margin: 20px 0px 20px 0px;
+  }
+  .paper-subheading{
+    font-size: 18px;
+    font-family: "Montserrat";
+    text-align: center;
+    color: #1e232d;
+  }
+  .paper-details{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "montserrat";
+    line-height: 2;
+    text-align: center;
+    color: #1e232d;
+    margin: 20px 70px 20px 35px;
+  }
+  
+  .paper-button{
+    font-size: 16px;
+    font-family: "montserrat";
+    text-align: center;
+    color: #ffffff;
+    background-color: #7549ab;
+    height: 49px;
+    width: 260px;
+    margin: 15px 0px 0px 315px;
+    cursor: pointer;
+  }
+  
+
+
+@media screen and (max-width:414px) {
+    .paper{
+        margin-left:0px;
+        display: block;
+        margin-top: -12px;
+      }
+      .paper-img{
+        width: 398px;
+        height: 600px;
+        position: absolute;
+        margin-top:600px;
+        margin-left: 0px;
+
+      }
+      
+      .paper-aside{
+        width: 414px;
+        background-color: #ffd948;
+        margin-left: -8px;
+        margin-top: -8px;
+      
+      }
+      .paper-title{
+        padding-top: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        color: #1e232d;
+        font-family: "poppins";
+      }
+      .paper-xr{
+        display: block;
+        width: 18x;
+        height: 15.8px;
+        border: 1px solid black ;
+        margin: -12px 0px 20px 320px;
+        padding: 18px;
+        border-radius: 15px;
+      }
+      .paper-heading{
+        font-size: 30px;
+        font-family: "poppins";
+        font-weight: 700;
+        text-align: center;
+        color: #1e232d;
+        margin: 20px 0px 20px 0px;
+      }
+      .paper-subheading{
+        font-size: 18px;
+        font-family: "Montserrat";
+        text-align: center;
+        color: #1e232d;
+        margin-left: 38px;
+        margin-right: 10px;
+      }
+      .paper-details{
+        font-size: 14px;
+        font-weight: 400;
+        width: 348px;
+        font-family: "montserrat";
+        line-height: 2;
+        text-align: center;
+        color: #1e232d;
+        margin: 20px 0px 20px 35px;
+      }
+      
+      .paper-button{
+        font-size: 16px;
+        font-family: "montserrat";
+        text-align: center;
+        color: #ffffff;
+        background-color: #7549ab;
+        height: 49px;
+        width: 260px;
+        margin: 15px 0px 60px 65px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+}
+@media  screen and (min-width:415px) and (max-width:768px) {
+    .paper{
+        margin-left:0px;
+        display: block;
+        margin-top: -50px;
+      }
+      .paper-img{
+        width: 752px;
+        height: 631px;
+        position: absolute;
+        margin-top:580px;
+
+      }
+      .paper-xr{
+        display: none;
+      }
+      .paper-aside{
+        width: 768px;
+        height: 610px;
+        background-color: #ffd948;
+        margin-left: -8px;
+        margin-top: -8px;
+      
+      }
+      .paper-title{
+        padding-top: 131px;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        color: #1e232d;
+        font-family: "poppins";
+      }
+      .paper-heading{
+        font-size: 30px;
+        font-family: "poppins";
+        font-weight: 700;
+        text-align: center;
+        color: #1e232d;
+        margin: 20px 0px 20px 0px;
+      }
+      .paper-subheading{
+        font-size: 18px;
+        font-family: "Montserrat";
+        text-align: center;
+        color: #1e232d;
+        margin-left: 38px;
+        margin-right: 10px;
+      }
+      .paper-details{
+        font-size: 14px;
+        font-weight: 400;
+        width: 608px;
+        font-family: "montserrat";
+        line-height: 2;
+        text-align: center;
+        color: #1e232d;
+        margin: 20px 0px 20px 75px;
+      }
+      
+      .paper-button{
+        font-size: 16px;
+        font-family: "montserrat";
+        text-align: center;
+        color: #ffffff;
+        background-color: #7549ab;
+        height: 49px;
+        width: 260px;
+        margin: 15px 0px 60px 255px;
+        cursor: pointer;
+        border-radius: 5px;
+      }    
+}
+@media screen and (min-width:780px) and (max-width:1024px)
+{
+ .paper{
+        margin-left:0px;
+        display: block;
+        margin-top: -12px;
+      }
+      .paper-img{
+        width: 1015px;
+        height: 600px;
+        position: absolute;
+        margin-top:600px;
+        margin-left: 0px;
+
+      }
+      .paper-xr{
+        display: none;
+      }
+      .paper-aside{
+        width: 1024px;
+        height: 600px;
+        background-color: #ffd948;
+        margin-left: -8px;
+        margin-top: -8px;
+      
+      }
+      .paper-title{
+        padding-top: 131px;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        color: #1e232d;
+        font-family: "poppins";
+      }
+      .paper-heading{
+        font-size: 30px;
+        font-family: "poppins";
+        font-weight: 700;
+        text-align: center;
+        color: #1e232d;
+        margin: 20px 0px 20px 0px;
+      }
+      .paper-subheading{
+        font-size: 18px;
+        font-family: "Montserrat";
+        text-align: center;
+        color: #1e232d;
+        margin-left: 38px;
+        margin-right: 10px;
+      }
+      .paper-details{
+        font-size: 14px;
+        font-weight: 400;
+        width: 874px;
+        font-family: "montserrat";
+        line-height: 2;
+        text-align: center;
+        color: #1e232d;
+        margin: 16px 0px 20px 85px;
+      }
+      
+      .paper-button{
+        font-size: 16px;
+        font-family: "montserrat";
+        text-align: center;
+        color: #ffffff;
+        background-color: #7549ab;
+        height: 49px;
+        width: 260px;
+        margin: 15px 0px 60px 377px;
+        cursor: pointer;
+        border-radius: 5px;
+      }   
+}

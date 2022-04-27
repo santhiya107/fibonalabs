@@ -1,0 +1,400 @@
+@font-face {
+    font-family: 'montesaratb';
+    src: url("font/MontserratBold.ttf");
+}
+@font-face {
+    font-family: 'montesaratm';
+    src: url("font/Montserrat\ SemiBold\ 600.ttf");
+}
+@font-face {
+    font-family: 'montesaratl';
+    src: url("font/Montserrat\ Light\ 300.ttf");
+}
+@font-face {
+    font-family: 'montesaratr';
+    src: url("font/Montserrat\ Regular\ 400.ttf");
+}
+#slider {
+    height: 91vh;    
+    background-color: #FAF5F0;    
+    }    
+    .carousel {    
+    position: relative;    
+    width: 300%;    
+    margin: 0;    
+    left: 0;    
+    font-weight: 300;    
+    animation: 10s slider infinite;    
+    }    
+    #slider .carousel .carousel-inner {    
+    width: 100%;    
+    float: left;    
+    }    
+    .carousel-inner {    
+    height: 840px;    
+    text-align: center;    
+    color: #1e232d;    
+    display: flex;    
+    width: 300%;    
+    }    
+    .carousel-inner h1{    
+    font-size: 90px;    
+    line-height: 1.2;    
+    font-family: 'Poppins', sans-serif;    
+    }       
+     .carousel-inner p{             
+    width: 100%;    
+    font-size: 18px;    
+    margin:-4% 0 0 8%;    
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 500;    
+    line-height: 2;    
+    }       
+     .carousel-item {    
+    padding: 4%;    
+    margin-top: 4vh;    
+    text-align: center;    
+    width: 100%;    
+    }
+    #desinp-tab, #scalep-tab,#scalep-i, #transp-tab, #transp-i,#transp-lap{
+        display: none;
+    }
+    #desinp{
+        margin-left: 0px;
+    }
+    #scalep{
+    width: 80%;
+    padding-left: 1%;
+    padding-right: 10%;
+    } 
+    #transp{
+        margin-left: 0px;
+    }
+@keyframes slider {
+    0% {left: 0}
+    32.99% {left: 0}
+    33% {left: -100%}
+    65.99% {left:-100%}
+    66%{left:-200%}
+    99.99%{left:-200%}
+    100%{left: 0;}
+}
+.shapes{
+    width:100%
+}
+.shapes2{
+    display: none;
+}
+@media screen and (max-width:414px) {
+    #slider {
+        height: 91vh;
+        background-color: #FAF5F0;
+        }
+        .carousel {
+        position: relative;
+        width: 300%;
+        margin: 0;
+        left: -150px;
+        font-weight: 300;
+        animation:10s slider infinite;
+        }
+        #slider .carousel .carousel-inner {
+        width: 100%;
+        float: left;
+        }
+        .carousel-inner {
+            height: 100px;
+        text-align: center;
+        color: #1e232d;
+        display: flex;
+        width: 300%;
+        }
+        .carousel-inner h1{
+        font-size: 30px;
+        line-height: 1.2;
+        width:405px;
+        letter-spacing: 0.5px;
+        font-family: 'Poppins', sans-serif;
+        }
+        .carousel-inner p{
+        width: 100%;
+        font-size: 14px;
+        margin:-2% 0 0 0%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        line-height:1.5;
+        }
+        .carousel-item {
+        padding-top: 20%;
+        padding-left: 1%;
+        margin-top: 4vh;
+        text-align: center;
+        width: 40%;
+        }
+        #scale{
+            margin-left: -21px;
+            font-size: 27px;
+        }
+        #scalep{
+         display: none;
+        }
+        #scalep-tab{
+         display: none;
+        }
+        #scalep-i{
+            display: block;
+            margin-left: -7px;
+         margin-right:40px;
+         font-size:16px;
+         font-family: "montesaratt";
+         color:#1e232d;
+         font-weight: 100;
+        }
+    #desin{
+        font-size: 27px;
+        margin-left: -61px;
+        letter-spacing: normal;
+        
+    }
+        #desinp{
+            display: none;
+        }
+        #desinp-tab{
+            font-family: 'montesaratt';
+            display:block;
+            /* width:200px; */
+            font-size: 16px;
+            font-weight: 600;
+            color:#1e232d;
+            margin-left: -38px;
+        }
+        #trans{
+            margin-left: -69px;
+            font-size: 27px;
+        }
+        #transp{
+            display: none;
+        }
+        #transp-tab{
+            display: none;
+        }
+        #transp-i{
+           
+            display: block;
+            margin-left: -48px;
+            font-size:16px;
+            font-weight: 500;
+            width: 373px;
+
+        }
+        .shapes{
+            display:none;
+        }
+        .shapes2{
+            display: block;
+            margin-left: 0px;
+            height: 114.02px;
+            width: 400px;
+            margin-top: -112px;
+        }
+}
+@media  screen and (min-width:415px) and (max-width:768px) {
+    #slider {
+        height: 91vh;
+        background-color: #FAF5F0;
+    }
+    .carousel {
+        position: relative;
+        width: 300%;
+        margin: 0;
+        left: -150px;
+        font-weight: 300;
+        animation: 10s slider infinite;
+    }
+    #slider .carousel .carousel-inner {
+        width: 100%;
+        float: left;
+    }
+    .carousel-inner {
+        height: 100px;
+        text-align: center;
+        color: #1e232d;
+        display: flex;
+        width: 300%;
+    }
+    .carousel-inner h1{
+        font-size: 30px;
+        line-height: 1.2;
+        width:405px;
+        letter-spacing: 0.5px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .carousel-inner p{
+        width: 100%;
+        font-size: 14px;
+        margin:-2% 0 0 0%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        line-height:1.5;
+    }
+    .carousel-item {
+        padding-top: 12%;
+        padding-left: 1%;
+        margin-top: 4vh;
+        text-align: center;
+        width: 40%;
+    }
+    #scale{
+        margin-left:143px;
+    }
+    #scalep{
+        display: none;
+    }
+    #scalep-tab{
+        font-family: 'montesaratm';
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    #desin{
+        margin-left: 143px;        
+    }
+    #desinp{
+        display: none;
+    }
+    #desinp-tab{
+        font-family: 'montesaratm';
+        display:block;
+        /* width:200px; */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1;
+        margin-left: 50px
+    }
+    #trans{
+        margin-left: 114px
+    }
+    #transp{
+        display: none;
+    }
+    #transp-tab{
+        font-family: 'montesaratm';
+        font-size: 16px;
+        display: block;
+        font-weight: 400;
+        width: 542px;
+        line-height: 35px;
+        margin-left: 20px;
+        margin-left: 70px;
+    }
+    @keyframes slider {
+        0% {left: 0}
+        32.99% {left: 0 }
+        33% {left: -100% }
+        65.99% {left:-100% }
+        66%{left:-200%}
+        99.99%{left:-200%}
+        100%{left: 0;}
+        }
+    .shapes{
+        display: block;
+        margin-left: 0px;
+        height: 108px;
+        width: 786px;
+        margin-top: -212px;
+    }
+    .shapes2{
+        display:none;
+    }           
+}
+@media screen and (min-width:780px) and (max-width:1024px){
+    #slider {
+        height: 91vh;
+        background-color: #Ffffff;
+    }
+    .carousel {
+        position: relative;
+        width: 300%;
+        margin: 0;
+        left: 0;
+        font-weight: 300;
+        animation: 10s slider infinite;
+    }
+    #slider .carousel .carousel-inner {
+        width: 100%;
+        float: left;
+    }
+    .carousel-inner {
+        height: 840px;
+        text-align: center;
+        color: #1e232d;
+        display: flex;
+        width: 300%;
+    }
+    .carousel-inner h1{
+        font-size: 80.24px;
+        line-height: 1.2;
+        font-family: 'Poppins', sans-serif;
+        width:893px;
+    }
+    .carousel-inner p{
+        width: 100%;
+        font-size: 16px;
+        margin:-5.5% 0 0 8%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        line-height: 2;
+    }
+    .carousel-item {
+        padding: 4%;
+        margin-top: 4vh;
+        text-align: center;
+        width: 100%;
+    }
+    #desinp-tab,  #scalep br,   #transp-lap,#scalep-i,#scalep-tab,#transp-tab,#transp-i,  #transp br{
+        display: none;
+    }
+    #scalep{
+        display: block;
+        width: 641px;
+    }
+    #scalep br{
+        display: none;
+    }
+    #transp-lap{
+        margin-left: -67px;
+        width:709px;
+    }
+    #desin{
+        margin-left: -119px;
+        margin-top: 160px;
+        width:893px;
+    }
+    #desinp{
+        margin-left: -86px;
+    }
+    #scale{
+        margin-left: -63px;
+        margin-top: 160px;
+    }
+    #trans{
+        margin-left: -104px;
+        margin-top: 160px;
+    }   
+    #transp{
+        display: block;
+        margin-left: -60px;
+    }  
+    @keyframes slider {
+        0% {left: 0 }
+        32.99% { left: 0 }
+        33% {left: -100%}
+        65.99% {  left:-100%  }
+        66%{left:-200%}
+        99.99%{left:-200%}
+        100%{left: 0;  }
+        }    
+    .shapes{
+        width: 1008px;
+    }
+    }

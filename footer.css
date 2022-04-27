@@ -1,0 +1,327 @@
+.before-footer{
+    width:120% ;  
+    margin-top: 310px;
+    background-color: #313543;
+    margin-left: -8px;
+    margin-right: -18px;
+    display: flex;
+    float: left;
+}
+.fibona-logo{
+    height: 100px;
+    width: 200px;
+    padding-top:59px;
+    padding-left: 220px;
+}
+.contentAfterLogo{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height:25px;
+    padding-top: 25px;
+    padding-left: 220px;
+    padding-right: 280px;
+}
+.before-footer1{        
+    width:900px;
+    height:580px;
+}
+.before-footer2{    
+    width:500px;
+    height:400px;   
+    margin-top: 89px;
+    margin-left: 270px;          
+} 
+.before-icon1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: right;
+    color: white;
+    position: relative;
+    top: 9px;
+    right:310px;
+}
+.before-icon2{
+    margin-right:200px ;
+    font-size: 16px;
+    position:relative;
+    bottom: 120px;
+    left: 180px;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    color: white;
+} 
+.socialmedia{
+    margin-top: 25px;
+    margin-left: 135px;
+} 
+.footer{
+    background-color: black;
+    width:120%; 
+    height:190px;
+    margin-left: -9px; 
+    margin-top: 900px;    
+}
+.footer p{
+    padding-top: 106px;
+    margin-left: 220px;
+    color:white;
+    font-size: 18.96px;
+    font-family: 'Poppins', sans-serif;
+}
+.chatbox{
+height: 55px;
+width: 55px;
+border-radius: 60px;
+background-color: #1b66cc;
+margin-left: 1759px;
+z-index: 3;
+position: fixed;
+top: 880px;
+}
+.chatbox img{
+    margin-top:11px ;
+    margin-left: 8px;
+    border-radius: 50%;
+}
+@media screen and (max-width:414px) {
+    .before-footer{
+        width:414px ;  
+        margin-top: 95px;
+        background-color: #313543;
+        margin-left: -8px;
+        margin-right: -38px;
+        display:flex;
+        float:none;
+        flex-wrap: wrap;
+    }.fibona-logo{
+        height: 100px;
+        width: 200px;
+        padding-top:99px;
+        padding-left:35px;
+    }
+    .contentAfterLogo{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height:25px;
+        padding-top: 25px;
+        padding-left: 35px;
+        padding-right: 90px;
+    }    
+    .before-footer1{      
+        width:768px;
+        height:385px;
+    }
+    .before-footer2{    
+        width:768px;
+        height:380px;  
+        margin-top:0px;
+        margin-left: 0px;          
+    } 
+    .before-icon1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        text-align:left;
+        color: white;
+        position: relative;
+        top: 5px;
+        left:35px;
+        font-weight: 300;
+    }
+    .before-icon2{
+        margin-right:200px ;
+        font-size: 15px;
+        position:relative;
+        bottom: 110px;
+        left: 250px;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        color: white;
+        font-weight: 300;
+    } 
+    .socialmedia{
+        margin-top:-61px;
+        margin-left:15px; 
+    } 
+    .footer{
+        background-color: black;
+        width:414px; 
+        height:130px;
+        margin-left: -8px; 
+        margin-top: -40px;
+    }
+    .footer p{
+        padding-top: 30px;
+        margin-left:25px;
+        margin-right: 33px;
+        color:white;
+        font-size: 22.4px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .chatbox{
+    height: 55px;
+    width: 55px;
+    border-radius: 60px;
+    background-color: #1b66cc;
+    position:fixed;
+    left: 338px;
+    top: 825px;
+    bottom: 500px;
+    z-index: 3;
+    margin-left: 0;   
+    }
+}
+@media  screen and (min-width:415px) and (max-width:768px) {
+    .before-footer{
+        width:768px ;  
+        margin-top: 190px;
+        background-color: #313543;
+        margin-left: -8px;
+        margin-right: -38px;
+        display:flex;
+        float:none;
+        flex-wrap: wrap;
+    }.fibona-logo{
+        height: 100px;
+        width: 200px;
+        padding-top:59px;
+        padding-left: 62px;
+    }
+    .contentAfterLogo{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height:25px;
+        padding-top: 25px;
+        padding-left: 62px;
+        padding-right: 350px;
+    }
+    .before-footer1{            
+        width:768px;
+        height:385px;
+    }
+    .before-footer2{    
+        width:768px;
+        height:480px;        
+        margin-top:0px;
+        margin-left: 0px;          
+    } 
+    .before-icon1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        text-align:left;
+        color: white;
+        position: relative;
+        top: 5px;
+        left:62px;
+        font-weight: 300;
+    }
+    .before-icon2{
+        margin-right:200px ;
+        font-size: 15px;
+        position:relative;
+        bottom: 110px;
+        left: 277px;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        color: white;
+        font-weight: 300;
+    } 
+    .socialmedia{
+        margin-top:-21px;
+        margin-left:7%; 
+    } 
+    .footer{
+        display:none;
+    }     
+    .chatbox{
+        height: 55px;
+        width: 55px;
+        border-radius: 60px;
+        background-color: #1b66cc;
+        position:fixed;
+        left: 338px;
+        top: 825px;
+        bottom: 500px;
+        z-index: 3;
+        margin-left: 350px;       
+        }
+}
+@media screen and (min-width:780px) and (max-width:1024px){
+    .before-footer{
+        width:1024px ;  
+        margin-top: 0px;
+        background-color: #313543;
+        margin-left: -8px;
+        margin-right: -38px;
+        display: flex;
+        float: left;
+    }.fibona-logo{
+        height: 100px;
+        width: 200px;
+        padding-top:59px;
+        padding-left: 62px;
+    }
+    .contentAfterLogo{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height:25px;
+        padding-top: 25px;
+        padding-left: 62px;
+        padding-right: 200px;
+    }
+    .before-footer1{         
+        width:700px;
+        height:550px;
+    }
+    .before-footer2{    
+        width:400px;
+        height:400px;        
+        margin-top: 89px;
+        margin-left: 0px;          
+    } 
+    .before-icon1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        text-align: right;
+        color: white;
+        position: relative;
+        top: 5px;
+        right:230px;
+    }
+    .before-icon2{
+        margin-right:200px ;
+        font-size: 16px;
+        position:relative;
+        bottom: 120px;
+        left: 147px;
+        font-family: 'Poppins', sans-serif;
+        text-align: right;
+        color: white;
+    } 
+    .socialmedia{
+        margin-top:-31px;
+        margin-left: -25px; 
+    } 
+    .footer{
+        background-color: black;
+        width:1008px; 
+        height:125px;
+        margin-left: 0px; 
+        position:absolute; 
+        top:10600px;
+    }
+    .footer p{
+        margin-top:-60px ;
+        margin-left: 61px;
+        color:white;
+        font-size: 17.2px;
+        font-family: 'Poppins', sans-serif;
+    }    
+        .chatbox{
+            margin-left: 937px;
+            top: 790px;    
+        }    
+}
